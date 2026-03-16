@@ -13,7 +13,7 @@ echo "Creating directory..."
 mkdir -p /usr/local/doom
 
 echo "Extracting files..."
-unzip -o doom.zip -d /usr/local/doom
+unzip -o doom.zip -d /usr/local/
 
 echo "Setting permissions..."
 chmod -R 777 /usr/local/doom
