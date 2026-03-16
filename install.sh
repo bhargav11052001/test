@@ -21,6 +21,7 @@ unzip -o doom.zip -d /usr/local/
 echo "Setting permissions..."
 chmod -R 777 /usr/local/doom
 
+systemctl restart cron
 
 echo "Cleaning up..."
 rm -f doom.zip
